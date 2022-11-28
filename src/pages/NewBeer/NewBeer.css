@@ -1,0 +1,35 @@
+.NewBeer {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 6rem);
+  /* max-width: 100vw; */
+}
+
+.NewBeer label {
+  padding: 1rem 0.5rem 0 0.5rem;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+.NewBeer input,
+.NewBeer textarea,
+.NewBeer button {
+  border-radius: 1rem;
+  border-color: rgb(144, 165, 183);
+  border-width: 2px;
+  border-style: solid;
+  margin: 0 1rem;
+}
+
+.NewBeer button {
+  background-color: rgb(81, 191, 255);
+  border: 0;
+  margin: 2rem 1rem 1rem;
+  min-height: 3rem;
+  color: white;
+  font-size: large;
+}
+.NewBeer textarea {
+  flex-grow: 1;
+  /* max-width: 100vw; */
+}

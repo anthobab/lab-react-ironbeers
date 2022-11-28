@@ -1,6 +1,30 @@
 .App {
-  text-align: center;
+  box-sizing: border-box;
+  text-align: left;
 }
+.App .toHomeBar {
+  /* display: block; */
+  text-decoration: none;
+  background-color: rgb(81, 191, 255);
+  color: white;
+  width: 100vw;
+  height: 6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display :grid */
+  /* place-items: center; */
+
+  /* display: table-cell;
+  text-align: center;
+  vertical-align: middle; */
+
+  font-size: 2.6rem;
+}
+
+/* .App .iconHouse {
+} */
 
 .App-logo {
   height: 40vmin;

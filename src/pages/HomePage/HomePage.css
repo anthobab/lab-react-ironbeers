@@ -1,0 +1,28 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.HomePage a {
+  text-decoration: none;
+  color: black;
+  margin: 0 0 3rem 0;
+}
+
+.HomePage a p,
+.HomePage a h1 {
+  margin: 0 2rem;
+}
+
+.HomePage a h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.HomePage a img {
+  width: 100%;
+}
+.HomePage a p {
+  font-size: 1.5rem;
+  color: grey;
+}
